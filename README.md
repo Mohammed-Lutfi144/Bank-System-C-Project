@@ -44,26 +44,30 @@ Bank-System-C-Project/
 ├── 250670107132BankSystem.cpp   # Main source code containing all logic and file I/O
 ├── Data.txt                     # Auto-generated flat-file database storing account records
 └── README.md                    # Project documentation
+```
 
-🚀 Getting Started
-Prerequisites
+## 🚀 Getting Started
+* Prerequisites
 A C++ compiler such as G++ (MinGW / GCC), Clang, or an IDE like Code::Blocks, Dev-C++, or VS Code.
 
-Platform Note: The source code uses system("cls") and system("pause"), which are native to Windows. (If running on Linux/macOS, replace system("cls") with system("clear") and remove system("pause")).
+* Platform Note: The source code uses system("cls") and system("pause"), which are native to Windows. (If running on Linux/macOS, replace system("cls") with system("clear") and remove system("pause")).
 
-📖 Usage Guide
-Select Mode: Upon launch, enter 1 for Admin Mode or 2 for Customer Mode.
+## 📖 Usage Guide
+* **Select Mode**: Upon launch, enter 1 for Admin Mode or 2 for Customer Mode.
 
-Create an Account (Admin): Choose option 1, enter the customer's first name (single word without spaces), initial deposit amount, and a 6-digit numeric password.
+* **Create an Account (Admin)**: Choose option 1, enter the customer's first name (single word without spaces), initial deposit amount, and a 6-digit numeric password.
 
-Perform Transactions (Customer): Choose option 1 (Deposit), 2 (Withdraw), or 3 (Check Balance), then authenticate using your assigned Account ID and 6-digit password.
+* **Perform Transactions (Customer)**: Choose option 1 (Deposit), 2 (Withdraw), or 3 (Check Balance), then authenticate using your assigned Account ID and 6-digit password.
 
-Exit Safely: Select the Exit option and enter X or x to confirm and save all records to Data.txt.
+* **Exit Safely**: Select the Exit option and enter X or x to confirm and save all records to Data.txt.
 
+## Data file format
+```text
 1,Ahmed,1500.00,123456
 2,Sara,3250.50,987654
+```
 
-👤 Author
+# 👤 Author
 Mohammed Lutfi Mahfoodh Basseif
 
 GitHub: @Mohammed-Lutfi144
